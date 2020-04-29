@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 export default class Resume extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
         <section id="resume">
@@ -14,26 +15,38 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>University of Life</h3>
-                  <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
-                  <p>
+                  <h3>HTWG University of Applied Sciences, Constance</h3>
+                  <p className="info">Bachelor in Applied Computer Science <span>•</span> <em className="date">2016 - 2020</em></p>
+                  {/* <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
                     ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                </p>
+                </p> */}
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>School of Cool Designers</h3>
-                  <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
-                  <p>
+                  <h3>University of Constance</h3>
+                  <p className="info">Bachelor in Information Engineering (not finished) <span>•</span> <em className="date">2014 - 2016</em></p>
+                  {/* <p>
                     This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                     Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
                     nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
                     ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                </p>
+                </p> */}
+                </div>
+              </div> {/* item end */}
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Berufsschulzentrum Radolfzell</h3>
+                  <p className="info">higher education entrance qualification <span>•</span> <em className="date">2012 - 2014</em></p>
+                  {/* <p>
+                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                </p> */}
                 </div>
               </div> {/* item end */}
             </div> {/* main-col end */}
@@ -47,26 +60,26 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Awesome Design Studio</h3>
-                  <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
-                  <p>
+                  <h3>Unisphere GmbH</h3>
+                  <p className="info">Software Developer (Part Time) <span>•</span> <em className="date">April 2019 - Present</em></p>
+                  {/* <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
                     ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                </p>
+                </p> */}
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Super Cool Studio</h3>
-                  <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
-                  <p>
+                  <h3>Fluence World Ltd.</h3>
+                  <p className="info">Software Developer (Part Time) <span>•</span> <em className="date">September 2017 - April 2019</em></p>
+                  {/* <p>
                     This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                     Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
                     nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
                     ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                </p>
+                </p> */}
                 </div>
               </div> {/* item end */}
             </div> {/* main-col end */}
