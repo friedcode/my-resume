@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^19.0.3"
   },
   "repository": {
     "type": "git",
